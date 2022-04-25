@@ -7,7 +7,8 @@
 <script>
 import Pokemonoptions from '../components/Pokemonoptions.vue'
 import Pokemonpicture from '../components/Pokemonpicture.vue'
-
+import getPokemonoptions from '@/helpers/getOptions'
+console.log(getPokemonoptions());
 export default {
   components: { Pokemonpicture, Pokemonoptions },
 
